@@ -1,0 +1,18 @@
+{
+  "name": "tickets",
+  "description": "Use Tesseract too retrieve the text from stored tickets and save them in googlesheet",
+  "version": "1.0.0",
+  "main": "test-tesseract.js",
+  "devDependencies": {},
+  "scripts": {
+    "pre-build": "npm install",
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "googleapis": "^110.0.0"
+  }
+}
